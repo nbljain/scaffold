@@ -15,9 +15,9 @@ jobs:
     - name: Lint with pylint
       run: |
         make lint
-    - name: Test
+    - name: Test the code
       run: |
-        make teat
+        make test
     - name: Format the code with python black
       run: |
         make format
